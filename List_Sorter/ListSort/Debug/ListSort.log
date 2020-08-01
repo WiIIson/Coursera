@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\MadLad\Desktop\C online course\CForEveryoneStructuredProgramming\Week 3\ListSort\ListSort\main.c(40,6): warning C4101: 'i': unreferenced local variable
+C:\Users\MadLad\Desktop\C online course\CForEveryoneStructuredProgramming\Week 3\ListSort\ListSort\main.c(77,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\MadLad\Desktop\C online course\CForEveryoneStructuredProgramming\Week 3\ListSort\ListSort\main.c(85,7): warning C4101: 'list_of_int': unreferenced local variable
+C:\Users\MadLad\Desktop\C online course\CForEveryoneStructuredProgramming\Week 3\ListSort\ListSort\main.c(76,6): warning C4101: 'temp': unreferenced local variable
+  ListSort.vcxproj -> C:\Users\MadLad\Desktop\C online course\CForEveryoneStructuredProgramming\Week 3\ListSort\Debug\ListSort.exe
