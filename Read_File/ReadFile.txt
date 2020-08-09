@@ -1,0 +1,33 @@
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+	FILE* myFile;
+	myFile = fopen("intFile.txt", "r");		//Opens the file with the ints
+
+	int numberArray[100];					//Loads variables
+	int i;
+	int scanlength;
+
+	double average = 0;
+	int max = 0;
+
+	fscanf(myFile, "%d", &scanlength);		//Scans the first number to see how many numbers are to be read
+
+	for (i = 0; i < scanlength; i++)
+	{
+		fscanf(myFile, "%d", &numberArray[i]);		//Scans the required amount of ints into the array
+		printf("%d\t", numberArray[i]);
+		average = average + numberArray[i];
+		if (numberArray[i] > max)
+		{
+			max = numberArray[i];					//Calculates the max number
+		}
+	}
+
+	average = average / scanlength;					//Calculates the average of the ints
+
+	printf("\nThe average is %lf", average);
+	printf("\nThe largest number is %d", max);		//Prints results
+}
